@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-vue-dynamic-path",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "dynamic change dynamic components path",
   "main": "index.js",
   "scripts": {
