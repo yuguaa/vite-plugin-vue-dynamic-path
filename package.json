@@ -1,10 +1,9 @@
 {
   "name": "vite-plugin-vue-dynamic-path",
-  "version": "1.0.2",
+  "version": "1.0.10",
   "description": "dynamic change dynamic components path",
-  "main": "dist/bundle.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
     "release": "npm run build && npm version patch && npm publish"
   },

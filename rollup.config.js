@@ -25,8 +25,8 @@ export default {
     ],
     external : ['commander'],
     output : {
-        file : "./dist/bundle.js",
-        format: "es",
+        file : "./dist/index.js",
+        format: "umd",
         name : 'vite-plugin-vue-dynamic-path'
     }
 }
