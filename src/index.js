@@ -168,6 +168,9 @@ export default function vitePluginVueDynamicPath(options) {
 	return {
 		name: VITE_PLUGIN_NAME,
 		enforce: "pre",
+    apply(config, { command }) {
+      return command === 'build'
+    },
 		config(config, { command }) {
 			if (command === "build") {
 				config.experimental = {
